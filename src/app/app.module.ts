@@ -6,6 +6,7 @@ import { MainCalculatorComponent } from './main-calculator/main-calculator.compo
 import { TipsComponent } from './tips/tips.component';
 import { HeaderComponent } from './header/header.component';
 import { DisplayComponent } from './display/display.component';
+import { MainViewComponent } from './main-view/main-view.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { DisplayComponent } from './display/display.component';
     MainCalculatorComponent,
     TipsComponent,
     HeaderComponent,
-    DisplayComponent
+    DisplayComponent,
+    MainViewComponent
   ],
   imports: [
     BrowserModule
